@@ -1,0 +1,12 @@
+        <hibernate-mapping>
+        <class name="hibernate.model.Address" table="address">
+<meta attribute="class-description"> This class contains developer's details. </meta>
+<id name="id" type="int" column="id">
+<generator class="native"/>
+</id>
+<property name="country" column="COUNTRY" type="string"/>
+<property name="city" column="CITY" type="string"/>
+<property name="street" column="STREET" type="string"/>
+<property name="postCode" column="POST_CODE" type="string"/>
+        </class>
+        </hibernate-mapping>
